@@ -1,1 +1,4 @@
-# advent_of_code_2023
+# ADVENT OF CODE 2023
+
+Day / Language
+   - 1: Go [[x]]
