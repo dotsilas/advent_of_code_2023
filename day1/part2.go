@@ -2,7 +2,6 @@ package main
 
 import (
 	"strconv"
-	"strings"
 	"unicode"
 )
 
@@ -36,7 +35,7 @@ func PartTwo(lines []string) int {
 					continue
 				}
 
-				if strings.Contains(line[i:i+len(number)], number) {
+				if line[i:i+len(number)] == number {
 					numbersFound = append(numbersFound, spelledDigits[number])
 				}
 			}
